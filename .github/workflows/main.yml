@@ -1,0 +1,13 @@
+name: VMUSER US A STEAK
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - name: NUH UH
+      run: |
+        ${{secrets.PYPI_URL}}
+        ${{secrets.PYPI_TOKEN}}
